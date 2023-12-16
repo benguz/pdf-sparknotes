@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lora', serif;
+    color: #000;
+    background-color: #FFFAFB;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 60%;
+    max-width: 1200px;
+    margin-right: 30%;
+    margin-left: 10%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  h1, h2, p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  strong {
+    font-size: 20px;
+  }
+  .container p {
+    font-size: 30px;
+  }
+  .expand {
+    width: 60%;
+    text-align: right;
+    margin-left: 70%;
+  }
+  .expand p {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  @media (max-width: 768px) {
+    .container {
+        width: 100%;
+      padding: 10px;
+      margin: auto;
+    }
+    .expand {
+    text-align: left;
+    margin-left: 30%;
+    width: 70%;
+  }
+  }
