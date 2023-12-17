@@ -46,3 +46,53 @@ body {
     width: 70%;
   }
   }
+
+  .interface {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.pdf {
+    width: 65%;
+    margin: 20px;
+}
+.summary {
+    width: 35%;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+.interface p {
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+.textbox {
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid gray;
+    min-height: 80px;
+}
+
+@media screen and (max-width: 720px) {
+    .interface {
+        flex-direction: column
+    }
+    .pdf {
+    width: 100%;
+    margin: 0px;
+    max-width: 100%
+}
+.summary {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    max-width: 100%;
+
+}
+}
