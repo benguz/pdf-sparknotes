@@ -1,0 +1,4 @@
+[[headers]]
+    for = "/pdfs/*"
+    [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
